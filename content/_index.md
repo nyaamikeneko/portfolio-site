@@ -1,7 +1,7 @@
 ---
-# Leave the homepage title empty to use the site title
+# Leave homepage title empty to fall back to the site title
 title: ""
-date: 2022-10-24
+date: 2025-06-30
 type: landing
 
 design:
@@ -9,12 +9,18 @@ design:
   spacing: "6rem"
 
 sections:
+  #######################################################################
+  # Hero / Biography
+  #######################################################################
   - block: resume-biography-3
     content:
-      # Choose a user profile to display (a folder name within `content/authors/`)
+      # `admin` should correspond to a folder under `content/authors/`
       username: admin
-      text: ""
-      # Show a call-to-action button under your biography? (optional)
+      text: |-
+        **Hello, I'm Fuminori Tanizawa** — an undergraduate medical student at **@ University Faculty of Medicine**.  
+        I study how *visual* and *auditory* cues interact in schizophrenia, using both **dry** (computational) and **wet** (in-vivo) approaches.
+
+        My goal is to advance science that benefits the people most affected by disease — communities often overlooked by mainstream research and healthcare.
       button:
         text: Download CV
         url: uploads/resume.pdf
@@ -23,103 +29,108 @@ sections:
       background:
         color: black
         image:
-          # Add your image background to `assets/media/`.
+          # Your background lives in `assets/media/`
           filename: stacked-peaks.svg
           filters:
             brightness: 1.0
           size: cover
           position: center
           parallax: false
+
+  #######################################################################
+  # Research & Training
+  #######################################################################
   - block: markdown
     content:
-      title: '📚 My Research'
-      subtitle: ''
+      title: "📚 Research & Training"
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
+        **Experimental & Computational Skills**  
+        • In-vivo mouse handling & high-density electrophysiology  
+        • Machine-learning-driven data analysis  
 
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
-        
-        Please reach out to collaborate 😃
+        **Research Experience**  
+        • Graduate School of @ University  
+        • Center for iPS Cell Research & Application (CiRA)  
+        • Ministry of Health, Labour and Welfare, Japan  
+        • **CiNET** – Collaborative Center for Neuroimaging *(starting soon)*  
+
+        **Formal Coursework**  
+        • Deep Learning — University of Tokyo GCI (2024)  
+        • Brain Science Training Program — RIKEN CBS  
+
+        I’m always open to new collaborations and opportunities — feel free to reach out!
     design:
-      columns: '1'
+      columns: "1"
+
+  #######################################################################
+  # Featured Publications
+  #######################################################################
   - block: collection
     id: papers
     content:
       title: Featured Publications
       filters:
-        folders:
-          - publication
+        folders: [publication]
         featured_only: true
     design:
       view: article-grid
       columns: 2
+
+  #######################################################################
+  # Recent Publications (full list)
+  #######################################################################
   - block: collection
     content:
       title: Recent Publications
-      text: ""
       filters:
-        folders:
-          - publication
+        folders: [publication]
         exclude_featured: false
     design:
       view: citation
+
+  #######################################################################
+  # Talks
+  #######################################################################
   - block: collection
     id: talks
     content:
       title: Recent & Upcoming Talks
       filters:
-        folders:
-          - event
+        folders: [event]
     design:
       view: article-grid
       columns: 1
+
+  #######################################################################
+  # News / Blog
+  #######################################################################
   - block: collection
     id: news
     content:
       title: Recent News
-      subtitle: ''
-      text: ''
-      # Page type to display. E.g. post, talk, publication...
       page_type: post
-      # Choose how many pages you would like to display (0 = all pages)
       count: 5
-      # Filter on criteria
       filters:
-        author: ""
-        category: ""
-        tag: ""
-        exclude_featured: false
         exclude_future: false
         exclude_past: false
-        publication_type: ""
-      # Choose how many pages you would like to offset by
-      offset: 0
-      # Page order: descending (desc) or ascending (asc) date.
-      order: desc
     design:
-      # Choose a layout view
       view: date-title-summary
-      # Reduce spacing
       spacing:
         padding: [0, 0, 0, 0]
+
+  #######################################################################
+  # Contact CTA
+  #######################################################################
   - block: cta-card
-    demo: true # Only display this section in the Hugo Blox Builder demo site
     content:
-      title: 👉 Build your own academic website like this
-      text: |-
-        This site is generated by Hugo Blox Builder - the FREE, Hugo-based open source website builder trusted by 250,000+ academics like you.
-
-        <a class="github-button" href="https://github.com/HugoBlox/hugo-blox-builder" data-color-scheme="no-preference: light; light: light; dark: dark;" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star HugoBlox/hugo-blox-builder on GitHub">Star</a>
-
-        Easily build anything with blocks - no-code required!
-        
-        From landing pages, second brains, and courses to academic resumés, conferences, and tech blogs.
+      title: "🤝 Get in Touch"
+      text: "Open to collaborations, internships, and joint projects. Email me anytime."
       button:
-        text: Get Started
-        url: https://hugoblox.com/templates/
+        text: Email Me
+        url: "mailto:you@example.com"
     design:
       card:
-        # Card background color (CSS class)
         css_class: "bg-primary-700"
-        css_style: ""
+
 ---
+
