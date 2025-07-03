@@ -13,6 +13,7 @@ sections:
   # Hero / Biography
   #######################################################################
   - block: resume-biography-3
+    title: "Biography"
     content:
       # `admin` should correspond to a folder under `content/authors/`
       username: admin
@@ -52,7 +53,6 @@ sections:
         • Deep Learning — University of Tokyo GCI (2024)  
         • Brain Science Training Program — RIKEN CBS  
 
-        I’m always open to new collaborations and opportunities — feel free to reach out!
     design:
       columns: "1"
 
