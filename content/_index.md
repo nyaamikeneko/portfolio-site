@@ -17,13 +17,14 @@ sections:
       # `admin` should correspond to a folder under `content/authors/`
       username: admin
       text: |-
-        **Hello, I'm Fuminori Tanizawa** — an undergraduate medical student at **@ University Faculty of Medicine**.  
-        I study how *visual* and *auditory* cues interact in schizophrenia, using both **dry** (computational) and **wet** (in-vivo) approaches.
-
-        My goal is to advance science that benefits the people most affected by disease — communities often overlooked by mainstream research and healthcare.
-      button:
-        text: Download CV
-        url: uploads/resume.pdf
+        Hi! I’m MTaro, an undergraduate student in Medicine at Nippon Medical School. I'm deeply interested in how the brain processes complex sensory inputs—like sound and light—especially in mouse models of psychiatric disorders. I use both dry and wet lab approaches to explore these mechanisms.My goal is to advance science that benefits the people most affected by disease — communities often overlooked by mainstream research and healthcare.
+ 
+        I bring a strong foundation in both neuroscience and deep learning, with research experience at Kyoto University’s iCenter for iPS Cell Research and Application, Japan’s Ministry of Health, Labour and Welfare, and the Department of Physiology at Nippon Medical School.
+ 
+        Always open to new collaborations or opportunities—feel free to reach out!
+ #      button:
+ #       text: Download CV
+ #       url: uploads/resume.pdf
     design:
       css_class: light
       background:
@@ -61,7 +62,7 @@ sections:
   - block: collection
     id: papers
     content:
-      title: Featured Publications
+      title: Projects
       filters:
         folders: [publication]
         featured_only: true
@@ -72,44 +73,44 @@ sections:
   #######################################################################
   # Recent Publications (full list)
   #######################################################################
-  - block: collection
-    content:
-      title: Recent Publications
-      filters:
-        folders: [publication]
-        exclude_featured: false
-    design:
-      view: citation
+ # - block: collection
+ #   content:
+ #     title: Recent Publications
+ #     filters:
+ #       folders: [publication]
+ #       exclude_featured: false
+ #   design:
+ #     view: citation
 
   #######################################################################
   # Talks
-  #######################################################################
-  - block: collection
-    id: talks
-    content:
-      title: Recent & Upcoming Talks
-      filters:
-        folders: [event]
-    design:
-      view: article-grid
-      columns: 1
+  ########################################################################
+ #  - block: collection
+ #    id: talks
+ #    content:
+ #      title: Recent & Upcoming Talks
+ #      filters:
+ #        folders: [event]
+ #    design:
+ #      view: article-grid
+ #      columns: 1
 
   #######################################################################
   # News / Blog
   #######################################################################
-  - block: collection
-    id: news
-    content:
-      title: Recent News
-      page_type: post
-      count: 5
-      filters:
-        exclude_future: false
-        exclude_past: false
-    design:
-      view: date-title-summary
-      spacing:
-        padding: [0, 0, 0, 0]
+ # - block: collection
+ #   id: news
+ #   content:
+ #     title: Recent News
+ #     page_type: post
+ #     count: 5
+ #     filters:
+ #       exclude_future: false
+ #       exclude_past: false
+ #   design:
+ #     view: date-title-summary
+ #     spacing:
+ #       padding: [0, 0, 0, 0]
 
   #######################################################################
   # Contact CTA
@@ -120,7 +121,7 @@ sections:
       text: "Open to collaborations, internships, and joint projects. Email me anytime."
       button:
         text: Email Me
-        url: "mailto:you@example.com"
+        url: "mailto:22taro.m.00@nms.ac.jp"
     design:
       card:
         css_class: "bg-primary-700"
