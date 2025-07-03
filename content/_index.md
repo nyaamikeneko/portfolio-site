@@ -17,7 +17,7 @@ sections:
       # `admin` should correspond to a folder under `content/authors/`
       username: admin
       text: |-
-        Hi! I’m MTaro, an undergraduate student in Medicine at Nippon Medical School. I'm deeply interested in how the brain processes complex sensory inputs—like sound and light—especially in mouse models of psychiatric disorders. I use both dry and wet lab approaches to explore these mechanisms.My goal is to advance science that benefits the people most affected by disease — communities often overlooked by mainstream research and healthcare.
+        Hi! I’m Taro, an undergraduate student in Medicine at Nippon Medical School. I'm deeply interested in how the brain processes complex sensory inputs—like sound and light—especially in mouse models of psychiatric disorders. I use both dry and wet lab approaches to explore these mechanisms.My goal is to advance science that benefits the people most affected by disease — communities often overlooked by mainstream research and healthcare.
  
         I bring a strong foundation in both neuroscience and deep learning, with research experience at Kyoto University’s iCenter for iPS Cell Research and Application, Japan’s Ministry of Health, Labour and Welfare, and the Department of Physiology at Nippon Medical School.
  
