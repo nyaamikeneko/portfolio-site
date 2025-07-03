@@ -26,6 +26,9 @@ marketing:
     google: ''
     baidu: ''
 
+custom_css:
+  - "css/custom.css"
+  
 # Site header
 header:
   navbar:
