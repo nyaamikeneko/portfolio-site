@@ -27,15 +27,8 @@ sections:
     design:
       css_class: dark
       background:
-        color: black
-        image:
-          # Your background lives in `assets/media/`
-          filename: stacked-peaks.svg
-          filters:
-            brightness: 1.0
-          size: cover
-          position: center
-          parallax: false
+        color: white
+
 
   #######################################################################
   # Research & Training
