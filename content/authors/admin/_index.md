@@ -33,8 +33,10 @@ profiles:
     label: E-mail label
   - icon: brands/x
     url: https://twitter.com/love_medicine_z
+    style: color:#007bff
   - icon: brands/github
     url: https://github.com/nyaamikeneko
+    style: color:#007bff
 
 interests:
   - Artificial Intelligence
