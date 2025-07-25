@@ -37,6 +37,9 @@ profiles:
   - icon: brands/github
     url: https://github.com/nyaamikeneko
     style: color:#007bff
+  - icon: brands/linkdin
+    url: https://www.linkedin.com/in/taro-masuno-8a5419373/
+    style: color:#007bff
 
 interests:
   - Artificial Intelligence
@@ -112,7 +115,7 @@ skills:
         description: ''
         percent: 100
         icon: chart-bar
-      - name: SQL
+      - name: Neuro Science
         description: ''
         percent: 40
         icon: circle-stack
@@ -138,7 +141,7 @@ languages:
     percent: 80
   - name: Japanese
     percent: 100
-  - name: Portuguese
+  - name: Germany
     percent: 25
 
 # Awards.
