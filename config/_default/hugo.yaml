@@ -6,7 +6,8 @@
 # Website name
 title: Hugo Academic CV Theme
 # Website URL
-baseURL: 'https://example.com/'
+baseURL: "https://nyaamikeneko.github.io/portfolio-site/"
+
 
 ############################
 ## LANGUAGE
