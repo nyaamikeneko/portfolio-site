@@ -1,0 +1,25 @@
+<style>
+/* Hide common hamburger/menu toggles used by themes/modules */
+button[aria-label*="menu"],
+button[aria-label*="Menu"],
+button[aria-label*="navigation"],
+[class*="hamburg"],
+[class*="burger"],
+[class*="menu-icon"],
+.navbar-toggler,
+.navbar-toggle,
+.menu-toggle,
+.menu-button,
+.hamburger {
+  display: none !important;
+  visibility: hidden !important;
+}
+
+/* Fallback: hide SVG icons that often represent the hamburger */
+svg[class*="hamburg"], svg[class*="burger"], svg[class*="menu-icon"] {
+  display: none !important;
+}
+
+/* Keep layout from collapsing awkwardly */
+header, .header, .navbar { align-items: center; }
+</style>
